@@ -7,15 +7,23 @@ Simple command line interface for communicating with the crunchbase api
 ```$ npm install crunchbase-cli -g```
 
 ## Usage
+
 ```
+$ crunchbase key <key>
+```
+
+If you don't have a key for the Crunchbase API you can register one at http://developer.crunchbase.com
+
+```
+$ crunchbase <company>
 $ crunchbase podio
+
 => Podio, now part of Citrix, is a collaborative work platform with a new take on how everyday-work gets done...
 ```
 
 ## TODO
 
 - Additional information
-- Set API key dynamically by typing e.g. `crunchbase key <key>`
 - Formatting
 
 ## LICENSE

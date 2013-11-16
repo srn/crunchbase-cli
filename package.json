@@ -23,7 +23,7 @@
     "url": "http://srn.io"
   },
   "main": "crunchbase-cli.js",
-  "readme": "readme.md",
+  "readme": "README.md",
   "engines": {
     "node": ">=0.10"
   },
