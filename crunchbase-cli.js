@@ -8,7 +8,7 @@ requirejs(['http', 'commander', 'underscore.string', 'fs', 'nconf', 'crunchbase'
     .file({ file: configFilePath });
 
   commander
-    .version('0.0.1');
+    .version('0.0.2');
 
   commander
     .command('key <key>')

@@ -1,6 +1,6 @@
 {
   "name": "crunchbase-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple command line interface for communicating with the crunchbase api",
   "keywords": [
     "crunchbase",
