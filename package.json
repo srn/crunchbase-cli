@@ -1,0 +1,34 @@
+{
+  "name": "crunchbase-cli",
+  "version": "0.0.1",
+  "description": "simple command line interface for communicating with the crunchbase api",
+  "keywords": [
+    "crunchbase",
+    "cli",
+    "api"
+  ],
+  "bin": {
+    "crunchbase": "./bin/crunchbase-cli"
+  },
+  "dependencies": {
+    "commander": "~2.0.0",
+    "crunchbase": "~0.1.2",
+    "requirejs": "~2.1.9",
+    "underscore.string": "~2.3.3",
+    "nconf": "~0.6.8"
+  },
+  "author": {
+    "name": "Soren Brokaer",
+    "email": "root@srn.io",
+    "url": "http://srn.io"
+  },
+  "main": "crunchbase-cli.js",
+  "readme": "readme.md",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soerenr/crunchbase-cli.git"
+  }
+}
