@@ -50,6 +50,11 @@ if (has(argv, 'version')) {
 
 if (has(argv, 'key')) {
   var key = argv['key'];
+
+  if (key === true) {
+    throw new Error('key argv is not a string.');
+  }
+
   nconf.set('crunchbase:key', key);
 
   nconf.save(function (err) {
@@ -68,8 +73,6 @@ if (has(argv, 'key')) {
 if (nconf.get('crunchbase:key') === void 0) {
   throw new Error('crunchbase:key is not set. See `--help`.');
 }
-
-console.log(argv);
 
 if (argv._.length > 0) {
   crunchbase.organization(argv._[0], function(error, results) {
