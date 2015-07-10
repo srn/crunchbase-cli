@@ -19,7 +19,7 @@ If you don't have a key for the Crunchbase API you can register one at http://de
 ### CLI
 
 ```
-  $ crunchbase <organisation> [--key]
+$ crunchbase <organisation> [--key]
 
 Options
   --key      Set the Crunchbase API key
