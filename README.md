@@ -1,4 +1,4 @@
-# crunchbase-cli
+# crunchbase-cli [![Build Status](http://img.shields.io/travis/srn/crunchbase-cli.svg?style=flat-square)](https://travis-ci.org/srn/crunchbase-cli) [![Dependency Status](http://img.shields.io/gemnasium/srn/crunchbase-cli.svg?style=flat-square)](https://gemnasium.com/srn/crunchbase-cli)
 
 > Simple command line interface for communicating with the Crunchbase API
 
